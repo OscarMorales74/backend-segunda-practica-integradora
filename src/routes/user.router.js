@@ -1,6 +1,8 @@
 import { Router } from 'express';
 import UserController from '../controllers/user.controllers.js';
 import { checkAuth } from '../middlewares/authJwt.js';
+// import passport from 'passport';
+// import currentJwtStrategy from '../passport/current.strategies.js'; // Importamos la estrategia "currentJwtStrategy"
 
 const controller = new UserController();
 
